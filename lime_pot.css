@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.principal{
+    padding: 30px;
+}
+
+.fondo {
+    height: 500px;
+    width: 300px;
+    background-color: rgb(15, 222, 153);
+    border-color: black;
+    border-radius: 30px; ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pantalla {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 150px;
+    width: 270px;
+    background-color: rgb(197, 190, 188);
+    border-radius: 20px;
+}
+
+.trapezoid {
+    position: absolute;
+    height: 0px;
+    width: 100px;
+    border-bottom: 30px solid rgb(220, 167, 123);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    background-color: transparent;
+    
+}
+
+#subir {
+    transform: rotate(180deg);
+    left: 124.0px;
+    bottom: 454px;
+}
+
+#bajar{
+    left: 124px;
+    bottom: 300px;
+}
+
+#siguiente{
+    transform: rotate(-120deg);
+    bottom: 407px;
+    left: 198px;
+}
+ 
+#anterior{
+    transform: rotate(120deg);
+    left: 25px ;
+    bottom: 407px;
+}
+
+#adelantar{
+    transform: rotate(-60deg);
+    left: 235px;
+    bottom: 180px;
+}
+
+#atrasar{
+    transform: rotate(60deg);
+    left: 25px;
+}
