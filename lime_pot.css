@@ -3,6 +3,7 @@
     padding: 0;
 }
  
+/*FONDO*/
 .principal{
     padding: 30px;
 }
@@ -10,7 +11,7 @@
 .fondo {
     height: 500px;
     width: 300px;
-    background-color: rgb(15, 222, 153);
+    background-color: rgb(222, 126, 15);
     border-color: black;
     border-radius: 30px; ;
     display: flex;
@@ -23,51 +24,123 @@
     margin-bottom: 10px;
     height: 150px;
     width: 270px;
-    background-color: rgb(197, 190, 188);
+    background-color: rgb(175, 217, 226);
     border-radius: 20px;
 }
 
 .trapezoid {
     position: absolute;
+    border: none;
     height: 0px;
     width: 100px;
-    border-bottom: 30px solid rgb(220, 167, 123);
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
+    border-bottom: 30px solid rgb(197, 190, 188);
+    border-left: 17px solid transparent;
+    border-right: 17px solid transparent;
     background-color: transparent;
     
 }
 
+/*BTN*/
+
 #subir {
     transform: rotate(180deg);
-    left: 124.0px;
-    bottom: 454px;
+    left: 130px;
+    bottom: 434px;
+}
+#subir_img{
+    transform: rotate(180deg);
+    height: 33px;
 }
 
+
 #bajar{
-    left: 124px;
-    bottom: 300px;
+    left: 131px;
+    bottom: 286px;
 }
+#bajar_img{
+    height: 35px;
+}
+
 
 #siguiente{
     transform: rotate(-120deg);
-    bottom: 407px;
-    left: 198px;
+    bottom: 398px;
+    left: 197px;
 }
+#siguiente_img{
+    transform: rotate(300deg);
+    height: 30px;
+}
+
  
 #anterior{
     transform: rotate(120deg);
-    left: 25px ;
-    bottom: 407px;
+    left: 65px ;
+    bottom: 398px;
 }
+#anterior_img{
+    transform: rotate(62deg);
+    height: 30px;
+}
+
 
 #adelantar{
     transform: rotate(-60deg);
-    left: 235px;
-    bottom: 180px;
+    left: 197px;
+    bottom: 323px;
 }
+#adelantar_img{
+    transform: rotate(60deg);
+    height: 30px;
+}
+
 
 #atrasar{
     transform: rotate(60deg);
-    left: 25px;
+    left: 65px;
+    bottom: 323px;
 }
+#atrasar_img{
+    transform: rotate(-60deg);
+    height:29px ;
+}
+
+
+.hexagon{
+    position: absolute;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    border: none;
+}
+
+
+#menu{
+    bottom: 200px;
+    left: 255px;
+}
+#menu_img{
+    height: 35px;
+}
+
+
+#aceptar{
+    bottom: 199px;
+    left: 44px;
+}
+#aceptar_img{
+    height: 40px;
+}
+
+#play{
+    bottom: 316.8px;
+    left: 121px;
+    height: 118px;
+    width: 120px;
+    background-color: transparent;
+}
+#play_img{
+    height: 80px;
+}
+
+

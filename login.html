@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Inicio de sesión</title> 
+</head>
+<body>
+    <div class="contenedor_principal" id="principal">
+        <div class="login">
+   
+            <h1>Login </h1>
+
+            
+            <form action="#">
+                <div class="input_group">
+                    <label for="usuario">Usuario</label>
+                    <input type="text" class="entrada" name="usuario" id="usuario">
+                </div>
+
+                <div class="input_group">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" class="entrada" name="contraseña" id="contraseña">
+                </div>
+
+                <div class="input_group" id="enviar">
+                    <button type="button" class="btn_submit">Enviar</button>
+                </div>
+            </form>
+            <hr>
+            <div class="columna">
+                <button class="btn_red">  <img src="logo-Google.png" alt="Google"> Google </button>
+                <button class="btn_red"> <img src="logo-fb.jpg" alt="Facebook" id="facebook"> Facebook </button>
+                <button class="btn_red"> <img src="logo-ig.png" alt="Instagram">Instagram </button>
+            </div>
+        </div>
+    </div>
+    <div class="hide" id="welcome">
+        <h1>Welcome</h1>
+
+    </div>
+
+    <script src="./login.js"></script>
+</body>
+</html>
