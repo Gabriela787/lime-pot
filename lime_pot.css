@@ -24,8 +24,10 @@
     margin-bottom: 10px;
     height: 150px;
     width: 270px;
-    background-color: rgb(175, 217, 226);
+    background-color: rgb(222, 126, 15);
     border-radius: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .trapezoid {
@@ -38,6 +40,13 @@
     border-right: 17px solid transparent;
     background-color: transparent;
     
+}
+
+.video_p{
+    height: 100%;
+    width: 100%;
+    
+
 }
 
 /*BTN*/

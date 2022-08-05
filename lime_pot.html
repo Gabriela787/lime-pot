@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="lime_pot.css">
 </head>
+
 <body>
     <div class="principal">
         <div class="fondo">
-            <div class="pantalla"> </div>
+            <div class="pantalla"> <video src="video.mp4" class="video_p" id="video_p"></video> </div>
             <div class="btn">
-                <button class="trapezoid" id="subir"><img src="subir.svg" id="subir_img"alt="subir"></button>
+                <button class="trapezoid" id="subir"><img src="subir.svg" id="subir_img" alt="subir"></button>
                 <button class="trapezoid" id="bajar"><img src="bajar.svg" id="bajar_img" alt="bajar"></button>
-                <button class="trapezoid" id="siguiente"><img src="siguiente.svg" id="siguiente_img" alt="siguiente"></button>
-                <button class="trapezoid" id="anterior"><img src="anterior.svg"  id="anterior_img" alt="anterior"></button>
-                <button class="trapezoid" id="adelantar"><img src="adelantar.svg" id="adelantar_img" alt="adelantar"></button>
-                <button class="trapezoid" id="atrasar"><img src="atrasar.svg" id="atrasar_img"  alt="atrasar"></button>
+                <button class="trapezoid" id="siguiente"><img src="siguiente.svg" id="siguiente_img"
+                        alt="siguiente"></button>
+                <button class="trapezoid" id="anterior"><img src="anterior.svg" id="anterior_img"
+                        alt="anterior"></button>
+                <button class="trapezoid" onclick="adelantar_video()" id="adelantar"><img src="adelantar.svg" id="adelantar_img"
+                        alt="adelantar"></button>
+
+                <button class="trapezoid" id="atrasar"><img src="atrasar.svg" id="atrasar_img" alt="atrasar"></button>
                 <button class="hexagon" id="menu"><img src="menu.svg" id="menu_img" alt="menu"></button>
                 <button class="hexagon" id="aceptar"><img src="aceptar.svg" id="aceptar_img" alt="aceptar"></button>
                 <button class="hexagon" id="play"><img src="play.svg" id="play_img" alt="play"></button>
             </div>
-            
+
         </div>
     </div>
+    <script src="lime_pot.js"></script>
 </body>
+
 </html>
