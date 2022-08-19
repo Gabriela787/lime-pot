@@ -21,10 +21,16 @@ var play = document.getElementById("play");
         video.volume -= 0.5;
     })
 
-   adelantar.addEventListener("click",()=>{
-        video.
-   })
-
-   atrasar.addEventListener("click",()=>{
-   
-})
+    adelantar.addEventListener("click", () => {
+        console.log (video.currentTime)
+        video.controls=true;
+        video.currentTime +=10
+        video.controls=true; 
+     })
+    
+    atrasar.addEventListener("click", () => {
+        console.log (video.currentTime)
+        video.controls=true ;
+        video.currentTime -=10
+        video.controls=true ;
+    })
